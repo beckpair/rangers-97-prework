@@ -1,0 +1,3 @@
+HTML
+- Difference between strong and bold, emphasis and italics?
+- Pls explain semantic elements better, some of them don't change the appearance (i.e. definitions) so what's the point?

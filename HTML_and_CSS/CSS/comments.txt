@@ -1,0 +1,9 @@
+Comments are used to explain the code and are ignored by browsers
+
+A CSS comment is placed inside the <style> element, and starts wil /* and ends with */
+
+Example:
+    /* This is a single-line comment */
+    p {
+        color: red;
+    }
