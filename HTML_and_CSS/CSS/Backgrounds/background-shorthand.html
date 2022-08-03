@@ -1,0 +1,28 @@
+<!--To shorten the code, you can specify all backgroun properties in one single property, called shorthand property-->
+<!--Instead of writing
+body {
+    background-color: #ffffff;
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+You can write this-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: #ffffff url(https://static.wikia.nocookie.net/the-ninth-house-trilogy/images/3/30/GideonNav.png/revision/latest?cb=20200821003756) no-repeat right top;
+                margin-right: 700px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The background Property</h1>
+
+        <p>The background property is a shorthand property for specifying all the background properties in one declaration.</p>
+        <p>Here, the background image is only shown once, and it is also positioned in the top-right corner.</p>
+        <p>We have also added a right margin, so that the text will not write over the background image.</p>
+    </body>
+</html>

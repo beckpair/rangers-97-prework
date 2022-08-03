@@ -1,0 +1,228 @@
+body {
+    background-color:#e6cebc
+}
+
+.header {
+   font-variant: small-caps;
+   font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+   background-color: #f4ece2;
+   color: #ba6f4d;
+   border: 10px;
+   border-style: double;
+   height: 100px;
+   text-align: center;
+   vertical-align: center;
+   font-size: 130%;
+   }
+
+.navbar {
+    background-color: #687259;
+    height: 30px;
+    position: relative;
+    margin-top: 2%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+    a:link {
+        color:#f4ece2;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+
+    }
+    a:visited {
+        color:#f4ece2
+    }
+    a:hover {
+        background-color: #f4ece2; 
+        color:#687259;
+        padding: 5px
+    }
+
+.name {
+    color: #f4ece2;
+    padding:15px;
+    background-image: url(https://i.pinimg.com/564x/f7/b7/5a/f7b75aa0653d0539d15a6a723767c18c.jpg);
+    text-align: center;
+}
+
+    .beck {
+        background-color: #687259;
+        color: #f4ece2;
+        padding:5px;
+        font-variant: small-caps;
+        font-family:'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+        
+    }
+
+.about-me {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: justify;
+    border-style: double;
+    padding: 10px;
+    background-color:#f4ece2;
+    margin: 40px;
+    font-size: 21px
+}
+div h2 {
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 40px
+}
+
+.books h3 {
+    text-align: center;
+    font-size: 30px
+}
+
+.games h3 {
+    text-align: center;
+    font-size: 30px
+}
+
+.family_photo {
+    position:relative;
+    top:20px;
+    left: 600px;
+    margin: 40px;
+    margin-top: -20px;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+    
+
+.books {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: left;
+    justify-content: center;
+    border-style: double;
+    padding: 10px;
+    background-color:#f4ece2;
+    font-size: 21px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 650px;
+    top: 75px;
+}
+
+.spare_time {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: justify;
+    border-style: double;
+    font-size: 21px;
+    padding: 10px;
+    background-color:#f4ece2;
+    position:relative;
+    margin-top: 20px;
+    height: 600px;
+    margin-bottom: 20px
+}
+
+.goob {
+    position: relative;
+    margin: 15px;
+    left: 1200px;
+    bottom: 490px;
+}
+
+.games {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: justify;
+    border-style: double;
+    padding: 10px;
+    background-color:#f4ece2;
+    font-size: 21px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 125px;
+    top: 75px;
+}
+
+.background {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: justify;
+    padding: 10px;
+    margin: 40px;
+    border-style: double;
+    background-color:#f4ece2;
+    width: 1745px;
+    position: relative;
+    right: 40px;
+    font-size: 21px
+}
+
+.stink {
+    margin: 75px
+}
+
+.miss-maam {
+    position: relative;
+    left: 1200px;
+    bottom:1200px
+}
+
+.memes {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    height:200px;
+    text-align: justify;
+    border-style: double;
+    padding: 10px;
+    background-color:#f4ece2;
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+    left: 650px;
+    bottom: 700px
+}
+
+.grid-container div {
+    justify-self: center;
+    align-self: center;
+    padding: 3em;
+    max-height: 50vh;
+    margin: 15px;
+}
+
+.memes p {
+    font-family: 'Cambria', Cochin, Georgia, Times, Times New Roman, serif;
+    font-variant:small-caps;
+    font-size: 30px
+}
+
+.contact {
+    width: 400px;
+    position: relative;
+    bottom: 600px;
+    left: 665px;
+    height: auto;
+    background-color:#ba6f4d;
+    color:#f4ece2;
+    text-align:center;
+    border: double black;
+    font-size: 21px;
+    padding-bottom: 20px
+}
+
+.contact a {
+    font-size: 21px
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-variant:small-caps;
+}
